@@ -3,11 +3,14 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bracket-validator-arsen"
+name = "bracket-validator-arsen2026"
 version = "0.1.0"
 description = "Bracket validator package for Python"
 readme = "README.md"
 requires-python = ">=3.8"
 
 [project.scripts]
-bracket-validator = "lab5.lab5:main"
+bracket-validator = "lab5:main"
+
+[tool.setuptools]
+py-modules = ["lab5"]
